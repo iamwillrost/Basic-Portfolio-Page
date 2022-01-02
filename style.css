@@ -20,7 +20,7 @@
   
   header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
