@@ -2,6 +2,7 @@
     --primary-color: #fcae38;
     --secondary-color: #024e76;
     --tertiary-color: #070202;
+    --navlinks-color: #ffb93c;
   }
   
   * {
@@ -20,6 +21,7 @@
   
   header {
     padding: 20px 35px;
+    text-align: center;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -44,7 +46,7 @@
   
   header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
   
   header nav {
@@ -62,14 +64,14 @@
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   header nav ul li a:hover {
-    background: var(--primary-color);
+    background: var(--navlinks-color);
     color: var(--secondary-color);
-    border-radius: 15px;
+    border-radius: 25px;
     text-shadow: none;
   }
   
