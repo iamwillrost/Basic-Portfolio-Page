@@ -1,2 +1,6 @@
 # Basic-Portfolio-Page
-portfolio showcasing my work
+
+A basic portfolio showcasing my work
+
+https://iamwillrost.github.io/Basic-Portfolio-Page/
+https://github.com/iamwillrost/Basic-Portfolio-Page/
