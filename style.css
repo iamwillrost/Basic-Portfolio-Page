@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #fcae38;
+    --primary-color: gray;
     --secondary-color: #024e76;
     --tertiary-color: #070202;
-    --navlinks-color: #ffb93c;
+    --navlinks-color: rgb(25, 54, 78);
   }
   
   * {
@@ -13,8 +13,11 @@
   
   body {
     background-color:  black;
-    color: blanchedalmond;
+    color: rgb(221, 219, 219);
     font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    flex-direction: row;
+    align-content: center;
   }
   
   
@@ -26,7 +29,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -36,7 +39,7 @@
   header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
+    font-size: 3vw;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
@@ -62,7 +65,7 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 2vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   }
   
   header nav ul li a:hover {
@@ -114,15 +117,22 @@
   }
   
   
-  
-  
   /* Designated Elements via Classes and IDs Below */
-  .container {
+  .flexprojects {
     background-color: var(--primary-color);
     border: var(--secondary-color);
     padding: 20px;
     text-align: center;
+    
   }
   
+  .aboutme {
+    display: flex;
+    background-color: gray;
+    align-content: center;
+  }
+
   
+
+
   
